@@ -1,4 +1,5 @@
 using Api.Data;
+using Api.Repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +35,8 @@ namespace Api
             IMapper mapper = MappingConfiguration.RegisterMaps().CreateMapper();
             services.AddSingleton(mapper);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddScoped<IClienteRepository, ClienteRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
