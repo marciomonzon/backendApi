@@ -1,10 +1,6 @@
 ﻿using Api.Models;
 using Api.Models.DTO;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Api
 {
@@ -15,6 +11,7 @@ namespace Api
             var mapping = new MapperConfiguration(config =>
                 {
                     config.CreateMap<ClienteDto, Cliente>().ReverseMap();
+                    config.CreateMap<UserDto, User>().ReverseMap();
                 });
 
             return mapping;

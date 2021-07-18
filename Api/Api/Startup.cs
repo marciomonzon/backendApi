@@ -37,6 +37,7 @@ namespace Api
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
