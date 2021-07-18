@@ -137,3 +137,7 @@ D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\AutoMapper.dll
 D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\Scrutor.dll
+D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Filters.dll
+D:\projetos\backendApi\Api\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
